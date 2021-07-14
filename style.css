@@ -3,3 +3,36 @@
     padding: 0;
 }
 
+main {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#block {
+    width: 570px;
+    height: 570px;
+    position: absolute;
+    background: black;
+}
+.image_perfil{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    margin-top: -362px;
+}
+.name{
+    color: white;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-top: -188px;
+}
