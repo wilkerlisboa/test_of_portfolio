@@ -2,6 +2,47 @@
     margin: 0;
     padding: 0;
 }
-h1{
-    color: red;
+header{
+    width: 24%;
+    height: 100vh;
+    background: black;
+    margin-left: 20px;
+    position: absolute;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    margin-top: 21px;
+}
+li{
+    text-decoration: none;
+    color: white;
+    padding: 28px 0px 0px 0px;
+}
+.copy{
+    color: white;
+    margin-top: 95px;
+}
+#image_profile{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    margin: 45px 0px 0px 107px;
+
+}
+.name_of_persona{
+    color: white;
+    color: white;
+    margin-top: 177px;
+    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.title_of_profision{
+    color: #c5c5c5;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'Ubuntu Mono', monospace;
+
 }
