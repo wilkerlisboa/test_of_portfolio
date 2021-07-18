@@ -18,10 +18,11 @@ li{
     text-decoration: none;
     color: white;
     padding: 28px 0px 0px 0px;
+    list-style: none;
 }
 .copy{
     color: white;
-    margin-top: 95px;
+    margin-top: 60px;
 }
 #image_profile{
     width: 110px;
@@ -41,8 +42,13 @@ li{
 }
 .title_of_profision{
     color: #c5c5c5;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 23px;
     font-family: 'Ubuntu Mono', monospace;
 
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: red;
 }
