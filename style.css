@@ -36,7 +36,7 @@ main {
     font-size: 30px;
     margin-top: -188px;
 }
-form{
+div{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -55,10 +55,15 @@ form{
     width: 400px;
     margin-top: 40px;
 }
-#button{
+#button {
     margin-top: 40px;
     padding: 10px;
     width: 200px;
     background: white;
     border-style: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
 }
