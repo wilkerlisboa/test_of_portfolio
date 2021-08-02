@@ -53,14 +53,14 @@ main{
     background: red;
     overflow-y: scroll;
 }
-#first{
+#home{
     width: 72%;
     height: 100vh;
     background: aquamarine;
     margin-left: 365px;
 }
 
-#second{
+#about{
     width: 72%;
     height: 100vh;
     background: blue;
