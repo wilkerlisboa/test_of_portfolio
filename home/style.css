@@ -54,14 +54,14 @@ main{
     overflow-y: scroll;
 }
 #first{
-    width: 73%;
+    width: 72%;
     height: 100vh;
     background: aquamarine;
     margin-left: 365px;
 }
 
 #second{
-    width: 73%;
+    width: 72%;
     height: 100vh;
     background: blue;
     margin-left: 365px;
