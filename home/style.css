@@ -59,6 +59,14 @@ main{
     background: aquamarine;
     margin-left: 365px;
 }
+#about{
+    width: 72%;
+    height: 100vh;
+    background: blue;
+    margin-left: 365px;
+    position: relative;
+}
+
 .apresentacion {
     position: absolute;
     font-family: 'Ubuntu Mono', monospace;
@@ -71,14 +79,6 @@ main{
     border-style: solid;
     color: black;
     padding: 10px;
-}
-
-#about{
-    width: 72%;
-    height: 100vh;
-    background: blue;
-    margin-left: 365px;
-
 }
 /*SCROLL*/
 ::-webkit-scrollbar-track {
