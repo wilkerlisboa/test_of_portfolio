@@ -90,7 +90,15 @@ main{
     margin-left: 365px;
 }
 
-
+/*IDIOMAS*/
+select{
+    position: absolute;
+    margin-left: 96px;
+    margin-top: 45px;
+    color: black;
+    background: white;
+    border-style: hidden;
+}
 
 /*SCROLL*/
 ::-webkit-scrollbar-track {
