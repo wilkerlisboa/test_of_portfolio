@@ -29,12 +29,9 @@ li:hover, li:focus {
     outline: 0;
 }
   
-li {
-    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-}
-li:hover {
-    box-shadow: 0 0 40px 40px #e74c3c inset;
+li:hover, li:focus {
+    color: red;
+    outline: 0;
 }
 
 /*termina aqui o teste*/
