@@ -105,6 +105,24 @@ main{
     background: blue;
     margin-left: 365px;
 }
+#skill{
+    width: 72%;
+    height: 100vh;
+    background: magenta;
+    margin-left: 365px;
+}
+#work{
+    width: 72%;
+    height: 100vh;
+    background: brown;
+    margin-left: 365px;
+}
+#contact{
+    width: 72%;
+    height: 100vh;
+    background: midnightblue;
+    margin-left: 365px;
+}
 
 /*IDIOMAS*/
 select{
