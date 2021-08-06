@@ -86,7 +86,7 @@ main{
 .apresentacion_home{
     width: 328px;
     height: 171px;
-    
+    position: absolute;
     margin: -76px 0px 0px 100px;
 }
 
