@@ -70,7 +70,6 @@ li:hover, li:focus {
 main{
     width: 100%;
     height: 100vh;
-    background: red;
     overflow-y: scroll;
     display: inline-block;
   
@@ -81,24 +80,33 @@ main{
     height: 100vh;
     background: aquamarine;
     margin-left: 365px;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
 }
-.apresentacion_home{
+.first_home{
     width: 328px;
     height: 171px;
-    position: absolute;
-    margin: -76px 0px 0px 100px;
+    margin: -74px 0px 0px -483px;
+    z-index: 1;
 }
 
 .apresentacion {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 53px;
     padding-bottom: 59px;
+    color: white;
 
+}
+#main-slider{
+    margin: 0px 0px 0px -980px;
 }
 .cv{
     border-style: solid;
-    color: black;
+    color: white;
     padding: 10px;
 }
 #about{
