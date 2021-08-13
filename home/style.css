@@ -94,12 +94,11 @@ main{
     z-index: 1;
 }
 
-.apresentacion {
+.Title_apresentacion{
     font-family: 'Ubuntu Mono', monospace;
     font-size: 53px;
     padding-bottom: 59px;
     color: white;
-
 }
 #main-slider{
     margin: 0px 0px 0px -980px;
@@ -114,6 +113,19 @@ main{
     height: 100vh;
     background: blue;
     margin-left: 365px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.First_title{
+    margin-top: -409px;
+    margin-left: 79px;
+    width: 165px;
+    height: 100px;
+    font-size: 22px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 #skill{
     width: 72%;
