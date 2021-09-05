@@ -5,6 +5,7 @@
 body{
     overflow-y: hidden;
     overflow-x: hidden;
+    background-image: url("../image/teste01.gif");
 }
 header{
     width: 24%;
@@ -13,6 +14,7 @@ header{
     margin-left: 20px;
     position: absolute;
     text-align: center;
+    opacity: 0.9;
 }
 nav{
     text-align: center;
@@ -55,7 +57,6 @@ li:hover, li:focus {
 }
 .name_of_persona{
     color: white;
-    color: white;
     margin-top: 177px;
     font-size: 30px;
     font-family: 'Ubuntu Mono', monospace;
@@ -74,11 +75,10 @@ main{
     display: inline-block;
   
 }
-/*HOME*/
-#home{
+section{
     width: 72%;
-    height: 100vh;
-    background: aquamarine;
+    height: 500vh;
+    background: white;
     margin-left: 365px;
     display: inline-flex;
     flex-direction: column;
@@ -87,64 +87,31 @@ main{
     align-items: center;
 
 }
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url(../image/teste04.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .first_home{
     width: 328px;
     height: 171px;
-    margin: -74px 0px 0px -483px;
+    margin: 314px 0px 0px 75px;
     z-index: 1;
+    color: white;
 }
 
 .Title_apresentacion{
     font-family: 'Ubuntu Mono', monospace;
     font-size: 53px;
     padding-bottom: 59px;
-    color: white;
-}
-#main-slider{
-    margin: 0px 0px 0px -980px;
 }
 .cv{
     border-style: solid;
-    color: white;
     padding: 10px;
-}
-/*ABOUT*/
-#about{
-    width: 72%;
-    height: 100vh;
-    background: blue;
-    margin-left: 365px;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-.First_title{
-    margin-top: -409px;
-    margin-left: 79px;
-    width: 165px;
-    height: 100px;
-    font-size: 22px;
-    font-family: 'Ubuntu Mono', monospace;
-}
-#skill{
-    width: 72%;
-    height: 100vh;
-    background: magenta;
-    margin-left: 365px;
-}
-#work{
-    width: 72%;
-    height: 100vh;
-    background: brown;
-    margin-left: 365px;
-}
-#contact{
-    width: 72%;
-    height: 100vh;
-    background: midnightblue;
-    margin-left: 365px;
+    color: white;
 }
 
 /*IDIOMAS*/
