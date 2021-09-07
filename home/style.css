@@ -90,20 +90,29 @@ section{
 #home{
     width: 100%;
     height: 100vh;
-    background: url(../image/teste04.gif);
+    background: white ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.computer{
+    width: 531px;
+    height: 461px;
+    background-image: url(../image/smartmockups_kta4ew6w.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 0px 0px 421px;
+}
 .first_home{
     width: 328px;
     height: 171px;
-    margin: 314px 0px 0px 75px;
+    margin: -279px 0px 0px 87px;
     z-index: 1;
-    color: white;
+    color: black;
 }
 
-.Title_apresentacion{
+#Title_apresentacion{
     font-family: 'Ubuntu Mono', monospace;
     font-size: 53px;
     padding-bottom: 59px;
@@ -111,7 +120,7 @@ section{
 .cv{
     border-style: solid;
     padding: 10px;
-    color: white;
+    color: black;
 }
 
 /*IDIOMAS*/
