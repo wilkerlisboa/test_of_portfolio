@@ -1,4 +1,4 @@
-const text = "Hi!<br>I'm Wilker      ";
+const text = `Hi! I'm Wilker Lisboa       `;
 
 let index = 0;
 
@@ -13,3 +13,14 @@ function writeText(){
 
 }
 setInterval(writeText, 200);
+
+
+var botaoAserAnimado = document.getElementById("caixa");
+
+botaoAserAnimado.onclick = function efeito() {
+   var e = document.getElementById("home");
+   e.style.animation = "none";
+   setTimeout(function() {
+      e.style.animation = "";
+   }, 100);
+}
