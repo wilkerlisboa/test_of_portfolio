@@ -15,7 +15,7 @@ function writeText(){
 setInterval(writeText, 200);
 
 
-var botaoAserAnimado = document.getElementById("caixa");
+var botaoAserAnimado = document.querySelector(".menu");
 
 botaoAserAnimado.onclick = function efeito() {
    var e = document.getElementById("home");
