@@ -94,10 +94,10 @@ section{
 /*Teste de animação*/
 @keyframes go-back {
     from {
-      transform: translateX(100px);
+      transform: translateY(100px);
     }
     to {
-      transform: translateX(0);
+      transform: translateY(0);
     }
 } 
 .computer{
@@ -133,14 +133,6 @@ section{
     background: red ;
     animation: go-back 2s;
 }
-@keyframes go-back {
-    from {
-      transform: translateX(100px);
-    }
-    to {
-      transform: translateX(0);
-    }
-} 
 /*teste*/
 @keyframes deslizar{
     0%   { margin-left: 0px; }
