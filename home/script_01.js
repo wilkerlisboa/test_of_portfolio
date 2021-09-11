@@ -14,7 +14,7 @@ function writeText(){
 }
 setInterval(writeText, 200);
 
-
+//RELOAD ANIMATION CLICK ON BUTTON
 var botaoAserAnimado = document.querySelector(".menu");
 
 botaoAserAnimado.onclick = function efeito() {
