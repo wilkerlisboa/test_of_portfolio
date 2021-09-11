@@ -122,7 +122,7 @@ section{
 
 #Title_apresentacion{
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 53px;
+    font-size: 40px;
     padding-bottom: 59px;
 }
 .cv{
@@ -135,6 +135,11 @@ section{
     height: 100vh;
     background: red ;
     animation: go-back 2s;
+}
+#second_title{
+    margin: 83px 0px 0px 88px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
 }
 /*teste*/
 @keyframes deslizar{
