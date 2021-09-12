@@ -103,6 +103,12 @@ section{
       transform: translateY(0);
     }
 } 
+/*teste*/
+@keyframes deslizar{
+    0%   { margin-left: 0px; }
+    50%  { margin-left: 200px; }
+    100% { margin-left: 0px; }
+}
 .computer{
     width: 531px;
     height: 461px;
@@ -164,22 +170,76 @@ section{
     height: 200px;
     background: white;
     box-shadow: 0px 0px 15px -3px grey;
-    margin: 20px 63px 0px 64px;
+    margin: 51px 63px 0px 64px;
+    text-align: center;
+    transition: all .4s;
 }
-/*teste*/
-@keyframes deslizar{
-    0%   { margin-left: 0px; }
-    50%  { margin-left: 200px; }
-    100% { margin-left: 0px; }
+.block_of_the_know:hover{
+    transform: translateY(-30px);
+  }
+#icon_web_multidevice_layout{
+    width: 105px;
+    height: 100px;
+    background-image: url(../icons/web_multidevice_layout.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -37px 0px 0px 47px;
+    filter: drop-shadow(0px 3px 3px grey);
+}
+.phases{
+    margin-top: 41px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 16px;
+}
+.the_block_line_front{
+    width: 100%;
+    height: 3px;
+    background: red;
+    margin-top: 74px;
+}
+#icon_web_design_layout{
+    width: 118px;
+    height: 100px;
+    margin: -37px 0px 0px 43px;
+    filter: drop-shadow(0px 3px 3px grey);
+    background: url(../icons/web_design_layout_desktop.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.the_block_line_web{
+    width: 100%;
+    height: 3px;
+    background: blue;
+    margin-top: 74px;
+}
+#icon_app_mobile_layout{
+    width: 118px;
+    height: 100px;
+    margin: -37px 0px 0px 43px;
+    filter: drop-shadow(0px 2px 0px grey);
+    background: url(../icons/app_design_mobile.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.the_block_line_app{
+    width: 100%;
+    height: 3px;
+    background: blueviolet;
+    margin-top: 74px;
 }
 /*IDIOMAS*/
 select{
     position: absolute;
     margin-left: 96px;
     margin-top: 45px;
-    color: black;
-    background: white;
-    border-style: hidden;
+    color: white;
+    background: black;
+    border-style: solid;
+    border-color: white;
     padding: 1px;
     outline: none;
 }
