@@ -3,10 +3,13 @@
     padding: 0;
 }
 
-main {
+body{
+    
+}
+header{
     width: 100%;
     height: 100vh;
-    background: white;
+    background: whitesmoke;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -14,56 +17,31 @@ main {
     justify-content: center;
     align-items: center;
 }
-
-#block {
-    width: 570px;
-    height: 570px;
-    position: absolute;
+nav{
+    width: 29%;
+    height: 100vh;
     background: black;
-}
-.image_perfil{
-    width: 110px;
-    height: 110px;
-    border-radius: 100%;
-    background: red;
-    position: absolute;
-    margin-top: -362px;
-}
-.name{
-    color: white;
-    position: absolute;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
-    margin-top: -188px;
-}
-div{
-    position: absolute;
+    text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    align-items: center;
+    justify-content: center;
 }
-#name_of_input{
-    padding: 10px 10px 10px 10px;
-    width: 400px;
-    margin-top: 150px;
-
+.img_of_person{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 100%;
+    margin-top: 50px;
 }
-#email_of_input{
-    padding: 10px 10px 10px 10px;
-    width: 400px;
-    margin-top: 40px;
+.name_of_person{
+    color: white;
+    position: absolute;
+    margin-top: 171px;
 }
-#button {
-    margin-top: 40px;
-    padding: 10px;
-    width: 200px;
-    background: white;
-    border-style: none;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-family: 'Roboto Mono';
-    font-size: 15px;
+.name_of_profission{
+    color: white;
+    position: absolute;
+    margin-top: 209px;
 }
