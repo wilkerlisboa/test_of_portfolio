@@ -2,7 +2,7 @@ const text = `Hi! I'm Wilker       `;
 
 let index = 0;
 
-//PHASES
+//PHASES OF THE PAGE HOME
 function writeText(){
 	document.getElementById("Title_apresentacion").innerHTML = text.slice(0, index);
 	index++;
@@ -14,10 +14,10 @@ function writeText(){
 }
 setInterval(writeText, 200);
 
-//RELOAD ANIMATION CLICK ON BUTTON
-var botaoAserAnimado = document.querySelector(".Home_menu");
+//RELOAD ANIMATION CLICK ON BUTTON MENU
+var home = document.querySelector(".Home_menu");
 
-botaoAserAnimado.onclick = function efeito() {
+home.onclick = function efeito() {
    var e = document.getElementById("home");
    e.style.animation = "none";
    setTimeout(function() {
@@ -25,11 +25,22 @@ botaoAserAnimado.onclick = function efeito() {
    }, 100);
 }
 
-//RELOAD ANIMATION CLICK ON BUTTON
-var TwobotaoAserAnimado = document.querySelector(".About_menu");
+//RELOAD ANIMATION CLICK ON BUTTON MENU
+var about = document.querySelector(".About_menu");
 
-TwobotaoAserAnimado.onclick = function efeito() {
+about.onclick = function efeito() {
    var b = document.getElementById("about");
+   b.style.animation = "none";
+   setTimeout(function() {
+      b.style.animation = "";
+   }, 100);
+}
+
+//RELOAD ANIMATION CLICK ON BUTTON MENU
+var skill = document.querySelector(".Skill_menu");
+
+skill.onclick = function efeito() {
+   var b = document.getElementById("skill");
    b.style.animation = "none";
    setTimeout(function() {
       b.style.animation = "";
