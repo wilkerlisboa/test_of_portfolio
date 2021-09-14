@@ -5,17 +5,21 @@
 header{
     width: 100%;
     height: 100vh;
-    background: whitesmoke;
+    background: url(./image/teste01.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
+
 }
 nav{
     width: 29%;
-    height: 100vh;
+    height: 79vh;
     background: black;
     text-align: center;
     display: flex;
@@ -23,6 +27,7 @@ nav{
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+    opacity: 0.9;
 }
 .img_of_person{
     width: 100px;
@@ -62,7 +67,7 @@ li{
     padding: 20px;
     color: white;
     font-size: 16px;
-    font-family: cursive;
+    font-family: monospace;
 }
 li:hover, li:focus {
     background: red;
