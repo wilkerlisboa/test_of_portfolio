@@ -1,7 +1,11 @@
-function adm(){
-    var nome = document.getElementById('name_of_input').value;
-    var email = document.getElementById("email_of_input").value;
-
-    window.alert(`Hi! ${nome} welcome, is it my portfolio`);
+//PHASES
+const text = "Wilker Lisboa       ";
+let index = 0;
+function reload(){
+    document.querySelector(".name_of_person").innerHTML = text.slice(0, index);
+    index++;
+    if(index > text.length -1){
+        index = 0;
+    }
 }
-
+setInterval(reload, 200);
