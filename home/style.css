@@ -36,12 +36,10 @@ li:hover, li:focus {
     color: #fff;
     outline: 0;
 }
-  
 li:hover, li:focus {
     color: red;
     outline: 0;
 }
-
 /*termina aqui o teste*/
 .copy{
     color: white;
@@ -54,7 +52,6 @@ li:hover, li:focus {
     background: red;
     position: absolute;
     margin: 45px 0px 0px 107px;
-
 }
 .name_of_persona{
     color: white;
@@ -67,14 +64,12 @@ li:hover, li:focus {
     margin-top: 10px;
     font-size: 23px;
     font-family: 'Ubuntu Mono', monospace;
-
 }
 main{
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
     display: inline-block;
-  
 }
 section{
     width: 72%;
@@ -86,8 +81,8 @@ section{
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-
 }
+/*HOME*/
 #home{
     width: 100%;
     height: 100vh;
@@ -119,7 +114,6 @@ section{
     z-index: 1;
     color: black;
 }
-
 #Title_apresentacion{
     font-family: 'Ubuntu Mono', monospace;
     font-size: 40px;
@@ -130,6 +124,7 @@ section{
     padding: 10px;
     color: black;
 }
+/*ABOUT*/
 #about{
     width: 100%;
     height: 100vh;
@@ -222,7 +217,11 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#skill{
+    width: 100%;
+    height: 100vh;
+    background: red;
+}
 /*IDIOMAS*/
 select{
     position: absolute;
