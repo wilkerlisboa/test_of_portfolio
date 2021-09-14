@@ -131,6 +131,7 @@ section{
     animation: go-back 1s;
    
 }
+/*Teste de animação*/
 @keyframes go-back {
     from {
       transform: translateY(100px);
@@ -217,10 +218,21 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*SKILL*/
 #skill{
     width: 100%;
     height: 100vh;
     background: red;
+    animation: go-back 1s;
+}
+/*Teste de animação*/
+@keyframes go-back {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0);
+    }
 }
 /*IDIOMAS*/
 select{
