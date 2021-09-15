@@ -247,7 +247,9 @@ section{
     font-weight: lighter;
     font-family: 'Ubuntu Mono', monospace;
 }
-
+#campo{
+    margin: 30px 0px 0px 88px;
+}
 /*IDIOMAS*/
 select{
     position: absolute;
