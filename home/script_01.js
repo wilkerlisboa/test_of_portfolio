@@ -40,9 +40,20 @@ about.onclick = function efeito() {
 var skill = document.querySelector(".Skill_menu");
 
 skill.onclick = function efeito() {
-   var b = document.getElementById("skill");
-   b.style.animation = "none";
+   var c = document.getElementById("skill");
+   c.style.animation = "none";
    setTimeout(function() {
-      b.style.animation = "";
+      c.style.animation = "";
+   }, 100);
+}
+
+//RELOAD ANIMATION CLICK ON BUTTON MENU
+
+var work = document.querySelector('.Work_menu');
+work.onclick = function efeito(){
+   var d = document.getElementById("work");
+   d.style.animation = "none";
+   setTimeout(function(){
+      d.style.animation = ""
    }, 100);
 }
