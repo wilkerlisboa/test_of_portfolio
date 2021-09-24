@@ -222,7 +222,7 @@ section{
 #skill{
     width: 100%;
     height: 100vh;
-    background: red;
+    background: white;
     animation: go-back 1s;
 }
 /*Teste de animação*/
@@ -258,7 +258,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 451px;
-    margin-top: -36px; 
+    margin-top: 4px; 
 }
 #only_skill{
     margin: -217px 0px 0px 88px;
@@ -267,6 +267,20 @@ section{
     font-weight: lighter;
     color: gray;
     font-family: 'Ubuntu Mono', monospace;
+}
+.first_cicle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: grey;
+    margin: 168px 0px 0px 663px;
+}
+.second_cicle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: grey;
+    margin: -40px 0px 0px 763px;
 }
 /*IDIOMAS*/
 select{
