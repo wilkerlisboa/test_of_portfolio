@@ -57,3 +57,7 @@ work.onclick = function efeito(){
       d.style.animation = ""
    }, 100);
 }
+
+// GALLARY BUTTON  
+var Two_Contact = document.querySelector('.button_of_galary_web');
+var test = getElementById("graphic_design").innerHTML= Two_Contact;
