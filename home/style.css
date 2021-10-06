@@ -22,14 +22,24 @@ nav{
     margin-top: 21px;
 }
 a{
-    text-decoration: none;
+    color: white;
+}
+/*Teste de efeito li*/
+a:hover, a:focus {
+    color: #fff;
+    outline: 0;
+}
+a:hover, a:focus {
     color: red;
+    outline: 0;
 }
 li{
     text-decoration: none;
     color: white;
     padding: 28px 0px 0px 0px;
     list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 /*Teste de efeito li*/
 li:hover, li:focus {
@@ -43,7 +53,13 @@ li:hover, li:focus {
 /*termina aqui o teste*/
 .copy{
     color: white;
-    margin-top: 60px;
+    margin-top: 47px;
+    line-height: 26px;
+}
+.instagram{
+    color: white;
+    margin-top: 60px; 
+    margin-left: -75px;
 }
 #image_profile{
     width: 110px;
