@@ -412,7 +412,7 @@ label{
     height: 81%;
     background: red;
     display: flex;
-    margin: 20px 0px 0px 89px;
+    margin: 103px 0px 0px 89px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
@@ -443,7 +443,7 @@ label{
 .icon_email{
     width: 70px;
     height: 70px;
-    background-image: url(../icons/icons8-email-64.png);
+    background-image: url(../icons/icons-email4.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
