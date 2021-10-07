@@ -395,12 +395,66 @@ label{
     font-family: 'Ubuntu Mono', monospace;
     font-size: 30px;
 }
+
 /*Conctact*/
 #contact{
     width: 100%;
     height: 100vh;
     background: tomato;
 }
+.fifth_title{
+    margin: 44px 0px 0px 88px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+}
+.information_contact{
+    width: 364px;
+    height: 81%;
+    background: red;
+    display: flex;
+    margin: 20px 0px 0px 89px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+}
+.icon_cell_phone{
+    width: 70px;
+    height: 70px;
+    background-image: url(../icons/cell_phone_01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_information_page_contact{
+    margin: -53px 0px 0px 100px;
+    font-weight: 800;
+    font-size: 22px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.icon_maps{
+    width: 70px;
+    height: 70px;
+    background-image: url(../icons/icon_03.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon_email{
+    width: 70px;
+    height: 70px;
+    background-image: url(../icons/icons8-email-64.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maps{
+    margin-top: 87px;
+}
+.email{
+    margin-top: 104px;
+}
+/*Finaly the page contact*/
 /*IDIOMAS*/
 select{
     position: absolute;
