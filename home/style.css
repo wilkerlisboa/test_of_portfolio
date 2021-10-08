@@ -400,7 +400,7 @@ label{
 #contact{
     width: 100%;
     height: 100vh;
-    background: tomato;
+    background: white;
 }
 .fifth_title{
     margin: 44px 0px 0px 88px;
@@ -409,8 +409,7 @@ label{
 }
 .information_contact{
     width: 364px;
-    height: 81%;
-    background: red;
+    height: 371px;
     display: flex;
     margin: 103px 0px 0px 89px;
     flex-direction: column;
@@ -419,31 +418,31 @@ label{
     align-items: flex-start;
 }
 .icon_cell_phone{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-image: url(../icons/cell_phone_01.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .text_information_page_contact{
-    margin: -53px 0px 0px 100px;
-    font-weight: 800;
-    font-size: 22px;
+    margin: -41px 0px 0px 79px;
+    font-weight: 500;
+    font-size: 19px;
     font-family: 'Ubuntu Mono', monospace;
 }
 .icon_maps{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-image: url(../icons/icon_03.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .icon_email{
-    width: 70px;
-    height: 70px;
-    background-image: url(../icons/icons-email4.png);
+    width: 50px;
+    height: 50px;
+    background-image: url(../icons/icons-email.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -451,10 +450,53 @@ label{
 .maps{
     margin-top: 87px;
 }
-.email{
+.email_of_information_contact{
     margin-top: 104px;
 }
+.how_inputs_of_the_contact{
+    width: 448px;
+    height: 404px;
+    margin: -371px 0px 0px 526px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    padding: 12px;
+    width: 74%;
+    border: solid;
+    border-radius: 2px;
+    margin-top: -22px;;
+
+}
+#email{
+    padding: 12px;
+    width: 74%;
+    border: solid;
+    border-radius: 2px;
+    margin-top: 37px;
+}
+#subject{
+    padding: 12px;
+    width: 74%;
+    border: solid;
+    border-radius: 2px;
+    margin-top: 37px
+}
+#Send{
+    padding: 10px;
+    width: 138px;
+    border-style: none;
+    background: black;
+    color: white;
+    margin-top: 18px;
+    cursor: pointer;
+    box-shadow: 0px 17px 16px -9px black
+}
 /*Finaly the page contact*/
+
 /*IDIOMAS*/
 select{
     position: absolute;
