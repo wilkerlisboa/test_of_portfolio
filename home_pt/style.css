@@ -288,14 +288,14 @@ section{
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    background: grey;
+    background: red;
     margin: 168px 0px 0px 716px;
 }
 .second_cicle{
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    background: grey;
+    background: red;
     margin: -30px 0px 0px 763px;
 }
 /*WORK*/
@@ -371,14 +371,14 @@ label{
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    background: grey;
+    background: red;
     margin: -60px 0px 0px 715px;
 }
 .four_cicle{
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    background: grey;
+    background: red;
     margin: -30px 0px 0px 762px;
 }
 /*Teste de animação*/
