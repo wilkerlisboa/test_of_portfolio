@@ -58,6 +58,23 @@ work.onclick = function efeito(){
    }, 100);
 }
 
-// GALLARY BUTTON  
-var Two_Contact = document.querySelector('.button_of_galary_web');
-var test = getElementById("graphic_design").innerHTML= Two_Contact;
+//SELECT
+let selectEl = document.getElementsByTagName('select');
+selectEl[0].addEventListener('change', function(){
+   location.href = this.value;
+})
+
+
+/* 
+        
+    
+ ____      ____  _____    _____      ___  ____    ________   _______     
+|_  _|    |_  _||_   _|  |_   _|    |_  ||_  _|  |_   __  | |_   __ \    
+  \ \  /\  / /    | |      | |        | |_/ /      | |_ \_|   | |__) |   
+   \ \/  \/ /     | |      | |   _    |  __'.      |  _| _    |  __ /    
+    \  /\  /     _| |_    _| |__/ |  _| |  \ \_   _| |__/ |  _| |  \ \_  
+     \/  \/     |_____|  |________| |____||____| |________| |____| |___| 
+                                                                         
+   
+    
+*/
