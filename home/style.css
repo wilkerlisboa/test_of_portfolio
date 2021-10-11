@@ -457,6 +457,7 @@ label{
     width: 448px;
     height: 431px;
     margin: -399px 0px 0px 526px;
+    background: white;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
