@@ -1,4 +1,4 @@
-const text = `Hi! I'm Wilker       `;
+const text = `Hi! I'm Wilker\n Web Developer       `;
 
 let index = 0;
 
