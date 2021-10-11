@@ -134,6 +134,7 @@ section{
     font-family: 'Ubuntu Mono', monospace;
     font-size: 40px;
     padding-bottom: 59px;
+    width: 324px;
 }
 .cv{
     border-style: solid;
