@@ -58,6 +58,18 @@ work.onclick = function efeito(){
    }, 100);
 }
 
+//RELOAD ANIMATION CLICK ON BUTTON MENU
+
+var contact = document.querySelector('.Contact_menu');
+contact.onclick = function efeito(){
+   var f = document.getElementById("contact");
+   f.style.animation = "none";
+   setTimeout(function(){
+      f.style.animation = ""
+   }, 100);
+}
+
+
 //SELECT
 let selectEl = document.getElementsByTagName('select');
 selectEl[0].addEventListener('change', function(){
