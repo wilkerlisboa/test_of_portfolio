@@ -67,7 +67,7 @@ li:hover, li:focus {
     border-radius: 100%;
     background: red;
     position: absolute;
-    margin: 45px 0px 0px 107px;
+    margin: 45px 0px 0px 36%;
 }
 .name_of_persona{
     color: white;
