@@ -552,6 +552,43 @@ select{
 ::-webkit-scrollbar-thumb {
     background: #bdbdbd;
 }
+/*Redes Sociais*/
+footer{
+    margin: -48px 0px 0px 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+#gitHub{
+    width: 38px;
+    height: 38px;
+    margin-right: 20px;
+    background-image: url(../icons/github.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#codePen{
+    width: 38px;
+    height: 38px;
+    margin-right: 20px;
+    background-image: url(../icons/codepen.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#linkedin{
+    width: 38px;
+    height: 38px;
+    margin-right: 20px;
+    background-image: url(../icons/linkedin.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /*
