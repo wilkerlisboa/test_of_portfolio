@@ -121,7 +121,7 @@ section{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 100px 0px 0px 421px;
+    margin: 100px 0px 0px 46%;
 }
 .first_home{
     width: 388px;
@@ -274,7 +274,7 @@ section{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 451px;
+    margin-left: 35%;
     margin-top: 4px; 
 }
 #only_skill{
@@ -463,10 +463,10 @@ label{
 .email_of_information_contact{
     margin-top: 86px;
 }
-.how_inputs_of_the_contact{
+.with_inputs_of_the_contact{
     width: 448px;
     height: 431px;
-    margin: -399px 0px 0px 526px;
+    margin: -399px 0px 0px 46%;
     background: white;
     display: flex;
     flex-direction: column;
