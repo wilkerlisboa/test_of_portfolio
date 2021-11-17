@@ -506,6 +506,16 @@ label{
     cursor: pointer;
     box-shadow: 0px 16px 16px -9px black;
 }
+/*Teste do button send*/
+#Send:hover, #Send:focus {
+    color: #fff;
+    outline: 0;
+}
+#Send:hover, #Send:focus {
+    background: red;
+    box-shadow: 0px 16px 16px -9px red;
+    outline: 0;
+}
 /*Finaly the page contact*/
 
 /*IDIOMAS*/
