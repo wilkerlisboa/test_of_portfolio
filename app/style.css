@@ -7,16 +7,18 @@
     body{
         overflow-x: hidden;
     }
-    /*
-    header {
-        width: 80%;
-        height: 100vh;
-        background: black;
-        margin-left: -301px;
+    select {
         position: absolute;
-        text-align: center;
+        margin-left: -79px;
+        margin-top: 45px;
+        color: white;
+        background: black;
+        border-style: solid;
+        border-color: white;
+        padding: 1px;
+        outline: none;
     }
-    */
+    
     span {
         display: grid;
     }
@@ -52,10 +54,10 @@
     }
       
     .btn-menu {
-        width: 45px;
-        height: 40px;
+        width: 28px;
+        height: 22px;
         position: absolute;
-        margin: 30px 0px 0px 50px;
+        margin: 30px 0px 0px -24px;
         padding: 10px;
         background-color: rgb(0, 0, 0);
         cursor: pointer;
