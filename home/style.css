@@ -17,6 +17,9 @@ header{
     position: absolute;
     text-align: center;
 }
+span{
+    display: none;
+}
 nav{
     text-align: center;
     margin-top: 21px;
