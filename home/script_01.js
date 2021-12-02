@@ -77,6 +77,9 @@ selectEl[0].addEventListener('change', function(){
 })
 
 
+$('.btn-menu').on('click touchstart', function () {
+   $('html').toggleClass('btn-menu-active');
+});
 /* 
         
     
