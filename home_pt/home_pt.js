@@ -1,4 +1,4 @@
-const text = `Oi! Eu sou Wilker\n Desenvolvedor Web       `;
+/*const text = `Oi! Eu sou Wilker\n Desenvolvedor Web       `;
 
 let index = 0;
 
@@ -77,7 +77,7 @@ selectEl[0].addEventListener('change', function(){
 
 
 
-/* 
+
         
     
  ____      ____  _____    _____      ___  ____    ________   _______     
