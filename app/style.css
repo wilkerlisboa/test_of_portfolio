@@ -18,7 +18,51 @@
         padding: 1px;
         outline: none;
     }
-    
+    /*HEADER*/
+    nav {
+        text-align: center;
+        margin-top: 5px;
+    }
+    #image_profile {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background: red;
+        position: absolute;
+        margin: 77px 0px 0px 38%;
+    }
+    .name_of_persona {
+        color: white;
+        margin-top: 171px;
+        font-size: 19px;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    .title_of_profision {
+        color: #c5c5c5;
+        margin-top: 7px;
+        font-size: 17px;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    li {
+        text-decoration: none;
+        color: white;
+        padding: 21px 0px 0px 0px;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .copy {
+        color: white;
+        margin-top: 23px;
+        line-height: 26px;
+        font-size: 11px;
+    }
+    .instagram {
+        color: white;
+        margin-top: 60px;
+        margin-left: -59px;
+    }
+    /*BUTTON MENU*/
     span {
         display: grid;
     }
@@ -38,9 +82,9 @@
     }
       
     .menu-mobile ul li {
-        font-size: 17px;
+        font-size: 14px;
         display: block;
-        border-bottom: 1px solid rgba(0,0,0,.1)
+        border-bottom: 1px solid rgba(0,0,0,.1);
     }
       
     .menu-mobile ul li a {
@@ -97,6 +141,7 @@
         align-content: center;
         align-items: center;
     }
+    /*HOME*/
     #home{
         width: 100%;
         height: 100vh;
@@ -171,12 +216,111 @@
         justify-content: center;
         align-items: center;
     }
-    /*FINALIZAR*/
+    /*SKILL*/
     #skill {
         width: 100%;
         height: 100vh;
-        background: white;
         animation: go-back 1s;
-        margin-top: 888px;
+        margin-top: 879px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        text-align: center;
+        align-items: center;
     }
+    #Three_title {
+        margin: 44px 0px 0px 0px;
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 30px;
+    }
+    #text_skill {
+        width: 86%;
+        font-size: 17px;
+        line-height: 38px;
+        margin: 30px 0px 0px 0px;
+        font-weight: lighter;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #Element_father {
+        width: 100%;
+        height: 172px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        margin-top: 132px;
+    }
+    .imag_of_block_skill {
+        width: 63%;
+        height: 92%;
+        background-image: url(../image/test_of_image.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 8px;
+        margin-left: -25px;
+    }
+    #only_skill {
+        margin: -275px 0px 0px 0px;
+        font-size: 17px;
+        line-height: 38px;
+        font-weight: lighter;
+        width: 86%;
+        color: gray;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #work {
+        width: 100%;
+        height: 100vh;
+        background: red;
+        animation: go-back 1s;
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+    #Four_title {
+        margin: 44px 0px 0px 0px;
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 30px;
+    }
+    #button_galery {
+        width: 382px;
+        height: 31px;
+        margin: 48px 0px 0px 29px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .button_of_galary {
+        text-decoration: none;
+        color: black;
+        width: 112px;
+        padding: 0px 16px;
+        border-style: solid;
+        margin: 51px 33px 0px 0px;
+        line-height: 2.1;
+    }
+    label {
+        width: 80%;
+        height: 619px;
+        background: white;
+        margin: 118px 0px 0px 0px;
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
