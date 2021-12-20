@@ -322,10 +322,34 @@
         display: flex;
         overflow-y: hidden;
         overflow-x: hidden;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
+        align-content: center;
     }
-
+    #web_design {
+        width: 94%;
+        height: 100%;  
+        background: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #graphic_design {
+        width: 94%;
+        height: 100%;
+        background: white;
+        cursor: pointer;
+        margin-top: 918px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
 }
