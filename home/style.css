@@ -325,15 +325,16 @@ section{
     display: inline-block;
     text-align: center;
 }
-.button_of_galary{
-    text-decoration: none;
-    color: black;
-    padding: 7px 35px;
-    border-style: solid;
-    margin: 51px 33px 0px 0px;
-    line-height: 3.1;
+#text_about_some_works{
+    width: 863px;
+    font-size: 18px;
+    line-height: 38px;
+    margin: 51px 0px 0px 88px;
+    font-weight: lighter;
+    font-family: 'Ubuntu Mono', monospace;  
+
 }
-label{
+#galary{
     width: 80%;
     height: 459px;
     background: white;
