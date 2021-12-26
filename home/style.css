@@ -337,21 +337,28 @@ section{
 #galary{
     width: 80%;
     height: 459px;
-    background: white;
-    margin: 0px 0px 0px 47px;
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    margin: 16px 0px 0px 88px;
+    text-align: center;
+    overflow-y: scroll;
+}
+#first_title_what_about_work{
+    margin-top: 27px;
+    font-size: 23px;
+    line-height: 38px;
+    font-weight: lighter;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#second_title_what_about_work{
+    margin-top: 49px;
+    font-size: 23px;
+    line-height: 38px;
+    font-weight: lighter;
+    font-family: 'Ubuntu Mono', monospace;
 }
 #web_design{
     width: 94%;
     height: 100%;
-    margin-left: -93px;
-    background: white;
+    margin-top: 6px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -368,10 +375,9 @@ section{
 #graphic_design{
     width: 94%;
     height: 100%;
-    background: white;
     cursor: pointer;
-    margin-left: -736px;
-    margin-top: 918px;
+    margin-left: 0px;
+    margin-top: 2px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
