@@ -280,7 +280,6 @@
     #work {
         width: 100%;
         height: 100vh;
-        background: red;
         animation: go-back 1s;
         display: flex;
         margin-top: 10px;
@@ -359,6 +358,96 @@
 }
 /*MOBILE*/
 @media  only screen and  (max-width: 410px),  only screen and (max-device-width: 768px){
+    
+    #skill {
+        width: 100%;
+        height: 100vh;
+        animation: go-back 1s;
+        margin-top: 673px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #text_skill {
+        width: 75%;
+        font-size: 17px;
+        line-height: 38px;
+        margin: 30px 0px 0px 0px;
+        font-weight: lighter;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #text_about_me {
+        width: 75%;
+        font-size: 18px;
+        line-height: 38px;
+        margin: 30px 0px 0px 0px;
+        font-weight: lighter;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #text_about_some_works {
+        width: 75%;
+        font-size: 18px;
+        line-height: 38px;
+        margin: -36px 0px 0px -7px;
+        font-weight: lighter;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #galary {
+        width: 100%;
+        height: 459px;
+        margin: 16px 0px 0px 0px;
+        text-align: center;
+        overflow-y: scroll;
+    }
+    #second_title_what_about_work {
+        margin-top: 439px;
+        font-size: 23px;
+        line-height: 38px;
+        font-weight: lighter;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #web_design {
+        width: 94%;
+        height: 100%;
+        /* background: white; */
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 427px 0px 0px 0px;
+    }
+    #graphic_design {
+        width: 94%;
+        height: 100%;
+        background: white;
+        cursor: pointer;
+        margin-top: 424px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .block {
+        width: 165px;
+        height: 153px;
+        background: brown;
+        margin-bottom: 50px;
+    }
+    .three_cicle {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background: red;
+        margin: -144px 0px 0px 715px;
+    }
     .menu-mobile {
         width: 85%;
         height: 100vh;
