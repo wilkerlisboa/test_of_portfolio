@@ -185,6 +185,12 @@ body{
         color: #fff;
         outline: 0;
     }
+    .cv:hover, .cv:focus {
+        background: red;
+        border-color: red;
+        box-shadow: 0px 16px 16px -9px red;
+        outline: 0;
+    }
     #Title_apresentacion {
         font-family: 'Ubuntu Mono', monospace;
         font-size: 19px;
