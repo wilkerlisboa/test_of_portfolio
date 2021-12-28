@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 /*Mobile*/
 @media  only screen and  (max-width: 768px),  only screen and (max-device-width: 768px){
     body{
         overflow-x: hidden;
+    }
+    main {
+    
+        height: 100vh;
+        overflow-y: scroll;
+        display: inline-block;
     }
     select {
         position: absolute;
@@ -381,14 +390,15 @@
         font-size: 30px;
     }
     .information_contact {
-        width: 364px;
+        width: 80%;
         height: 371px;
         display: flex;
-        margin: 590px 0px 0px 89px;
+        margin: 590px 0px 0px 0px;
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: center;
         align-items: flex-start;
+        font-size: 15px;
     }
     .with_inputs_of_the_contact {
         width: 100%;
@@ -401,6 +411,12 @@
         align-items: center;
         justify-content: center;
         align-content: center;
+    }
+    .text_information_page_contact {
+        margin: -41px 0px 0px 79px;
+        font-weight: 200;
+        font-size: 15px;
+        font-family: 'Ubuntu Mono', monospace;
     }
     footer {
         margin: -509px 0px 0px 0px;
