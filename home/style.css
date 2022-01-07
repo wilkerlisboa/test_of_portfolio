@@ -68,7 +68,10 @@ li:hover, li:focus {
     width: 110px;
     height: 110px;
     border-radius: 100%;
-    background: red;
+    background: url(../image/teste_image_of_perfil.jpeg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     margin: 45px 0px 0px 36%;
 }
@@ -88,6 +91,7 @@ main{
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     display: inline-block;
 }
 section{
