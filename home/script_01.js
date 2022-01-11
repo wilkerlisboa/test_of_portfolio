@@ -76,10 +76,20 @@ selectEl[0].addEventListener('change', function(){
    location.href = this.value;
 })
 
-
+//BUTTON OF MENU TO MOBILE
 $('.btn-menu').on('click touchstart', function () {
    $('html').toggleClass('btn-menu-active');
 });
+//PAGE ABOUT
+function front(){
+   window.alert(`Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.`);
+}
+function design(){
+   window.alert(`Web design is the process of planning, conceptualizing, and arranging content online. Today, designing a website goes beyond aesthetics to include the website’s overall functionality. Web design also includes web apps, mobile apps, and user interface design.`);
+}
+function ui(){
+   window.alert(`User interface (UI) design is the process designers use to build interfaces in software or computerized devices, focusing on looks or style. Designers aim to create interfaces which users find easy to use and pleasurable. UI design refers to graphical user interfaces`);
+}
 /* 
         
     
