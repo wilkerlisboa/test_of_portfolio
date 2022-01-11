@@ -42,7 +42,8 @@
     .name_of_persona {
         color: white;
         margin-top: 171px;
-        font-size: 19px;
+        font-size: 18px;
+        margin-left: 12%;
         font-family: 'Ubuntu Mono', monospace;
     }
     .title_of_profision {
