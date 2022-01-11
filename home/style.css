@@ -147,6 +147,18 @@ section{
     border-style: solid;
     padding: 10px;
     color: black;
+    box-shadow: 0px 16px 16px -9px black;
+}
+/*Teste de efeito li*/
+.cv:hover, .cv:focus {
+    color: #fff;
+    outline: 0;
+}
+.cv:hover, .cv:focus {
+    background: red;
+    border-color: red;
+    box-shadow: 0px 16px 16px -9px red;
+    outline: 0;
 }
 /*ABOUT*/
 #about{
