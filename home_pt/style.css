@@ -56,7 +56,55 @@
     box-shadow: 0px 16px 16px -9px red;
     outline: 0;
 }
-
+@media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .container > div{
+        margin: 10px;
+        margin-top: -62%;
+    }
+    .image_404 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../image/404.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .number_404{
+        display: none;
+    }
+    .text_below_number_404{
+        position: absolute;
+        font-family: 'Ubuntu Mono', monospace;
+        margin: 84% 0px 0px 0px;
+        width: 86%;
+        line-height: 125%;
+        font-size: 84%; 
+    }
+    .back {
+        padding: 10px;
+        font-family: 'Ubuntu Mono', monospace;
+        width: 98px;
+        position: absolute;
+        border-style: none;
+        background: black;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 0px 16px 16px -9px black;
+        margin: 154% 0px 0px 0px;
+        text-decoration: none;
+    }
+}
 /*
     
     
