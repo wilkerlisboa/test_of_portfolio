@@ -142,11 +142,15 @@
                         <p class="text_information_page_contact">wilkerlisboa.ofc@gmail.com</p>
                     </div>
                 </div>
-                <form class="with_inputs_of_the_contact">
-                    <input type="text" name="" id="name" placeholder="Name">
-                    <input type="email" name="" id="email" placeholder="Email">
-                    <textarea name="" id="subject" cols="30" rows="10" placeholder="Subject"></textarea>
+                <!--FORM-->
+                <form action="https://formsubmit.co/wilkerlisboa.ofc@gmail.com" method="POST" class="with_inputs_of_the_contact">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="hidden" name="_subject" value=""><!--CREATE NEW A SUBJCT -->
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                     <input type="submit" value="Send" id="Send">
+                    <input type="hidden" name="_next" value="../home_pt/home_pt.html">
                 </form>
                 <footer>
                     <a href="https://github.com/wilkerlisboa" target="_blank"><div id="gitHub"></div></a>
