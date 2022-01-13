@@ -430,7 +430,7 @@
     .information_contact {
         width: 80%;
         height: 371px;
-        display: flex;
+        display: none;
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: center;
