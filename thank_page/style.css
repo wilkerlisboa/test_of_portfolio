@@ -56,3 +56,6 @@ p{
     box-shadow: 0px 16px 16px -9px red;
     outline: 0;
 }
+@media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
+    
+}
