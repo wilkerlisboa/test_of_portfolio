@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.image_404 {
+    width: 483px;
+    height: 482px;
+    background-image: url(../image/404.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+}
+.number_404 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 130px;
+    position: absolute;
+    margin-left: 786px;
+    margin-top: -256px;
+}
+.text_below_number_404{
+    position: absolute;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0px 0px 0px 570px;
+}
+.back{
+    padding: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    width: 98px;
+    position: absolute;
+    border-style: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 16px 16px -9px black;
+    margin: 161px 0px 0px 831px;
+    text-decoration: none;
+}
+.back:hover, .back:focus {
+    color: #fff;
+    outline: 0;
+}
+.back:hover, .back:focus {
+    background: red;
+    box-shadow: 0px 16px 16px -9px red;
+    outline: 0;
+}
+@media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .container > div{
+        margin: 10px;
+        margin-top: -62%;
+    }
+    .image_404 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../image/404.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .number_404{
+        display: none;
+    }
+    .text_below_number_404{
+        position: absolute;
+        font-family: 'Ubuntu Mono', monospace;
+        margin: 63% 0px 0px 0px;
+        width: 86%;
+        line-height: 125%;
+        font-size: 84%;
+    }
+    .back {
+        padding: 10px;
+        font-family: 'Ubuntu Mono', monospace;
+        width: 98px;
+        position: absolute;
+        border-style: none;
+        background: black;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 0px 16px 16px -9px black;
+        margin: 115% 0px 0px 0px;
+        text-decoration: none;
+    }
+}
+/*
+    
+    
+ ____      ____  _____    _____      ___  ____    ________   _______     
+|_  _|    |_  _||_   _|  |_   _|    |_  ||_  _|  |_   __  | |_   __ \    
+  \ \  /\  / /    | |      | |        | |_/ /      | |_ \_|   | |__) |   
+   \ \/  \/ /     | |      | |   _    |  __'.      |  _| _    |  __ /    
+    \  /\  /     _| |_    _| |__/ |  _| |  \ \_   _| |__/ |  _| |  \ \_  
+     \/  \/     |_____|  |________| |____||____| |________| |____| |___| 
+                                                                         
+   
+*/
