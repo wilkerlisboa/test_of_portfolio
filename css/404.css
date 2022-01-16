@@ -36,7 +36,7 @@
 .back{
     padding: 10px;
     font-family: 'Ubuntu Mono', monospace;
-    width: 38%;
+    width: 12%;
     position: absolute;
     border-style: none;
     background: black;
@@ -44,7 +44,7 @@
     cursor: pointer;
     text-align: center;
     box-shadow: 0px 16px 16px -9px black;
-    margin: 161px 0px 0px 831px;
+    margin: 161px 0px 0px 797px;
     text-decoration: none;
 }
 .back:hover, .back:focus {
