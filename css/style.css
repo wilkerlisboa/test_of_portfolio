@@ -387,6 +387,21 @@ section{
     height: 153px;
     background: brown;
     margin-left: 50px;
+    transition:.2s all; 
+}
+/*TWO TESE ANIMETION*/
+
+#galary:hover .block{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+}
+#galary:hover .block:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
 }
 #graphic_design{
     width: 94%;
