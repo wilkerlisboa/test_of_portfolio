@@ -1,19 +1,3 @@
-const text = `Hi! I'm Wilker\n Web Developer       `;
-
-let index = 0;
-
-//PHASES OF THE PAGE HOME
-function writeText(){
-	document.getElementById("Title_apresentacion").innerHTML = text.slice(0, index);
-	index++;
-
-	if(index > text.length -1){
-		index = 0;
-	}
-
-}
-setInterval(writeText, 200);
-
 //RELOAD ANIMATION CLICK ON BUTTON MENU
 var home = document.querySelector(".Home_menu");
 
